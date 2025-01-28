@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create PrimeWeb account</title>
+    <link rel="icon" href="/Assets/images/favicon.ico">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+  </head>
+  <body>
+    <section class="create_id">
+      <div class="header">
+        <h1 class="header_text">PrimeWeb Registration</h1>
+      </div>
+      <div class="form_box">
+        <div class="form_header_text">
+          <h2 class="primary_text">Registration form</h2>
+          <h2 class="secondary_text">It's quick & easy</h2>
+        </div>
+        <div class="main_form element_margin">
+          <form action="#">
+            <div class="input_1">
+              <input type="text" name="" id="firstName" placeholder="First Name" required />
+              <input type="text" name="" id="lastName" placeholder="Last Name" required />
+            </div>
+
+            <div class="age_division">
+              <div class="age element_margin">
+                <div class="date_label">Date of birth</div>
+                <div class="date">
+                  <input type="date" name="date" id="date" required>
+                </div>
+              </div>
+              <div class="division element_margin">
+                <div class="label">Select your division</div>
+                <div class="division_otions">
+                  <select name="division" id="division" required>
+                    <option value="None" hidden>None</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Mymensingh">Mymensingh </option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Barisal">Barisal</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Khulna">Khulna</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="gender element_margin">
+              <div class="label">Gender</div>
+              <div class="gender_elements">
+                <div class="gender_wrap">
+                  <label for="female">Female</label>
+                  <input type="checkbox" name="female" id="female">
+                </div>
+                <div class="gender_wrap">
+                  <label for="male">Male</label>
+                  <input type="checkbox" name="male" id="male">
+                </div>
+                <div class="gender_wrap">
+                  <label for="other">Other</label>
+                  <input type="checkbox" name="other" id="other">
+                </div>
+              </div>
+            </div>
+            <div class="input_2 element_margin">
+              <input type="tel" name="mobile_email" id="mobileEmail" placeholder="Mobile number" required>
+              <input type="email" name="mobile_email" id="mobileEmail" placeholder="Email address" required>
+              <input type="password" name="new_password" id="newPassword" placeholder="New password" required>
+            </div>
+            <div class="learn_more_text element_margin">
+              <h3 class="privecy_text">People who use our services may have uploaded your contact information to PrimeWeb. <a href="#" class="privacy_links">Learn more.</a></h3>
+            </div>
+            <div class="terms element_margin">
+              <input type="checkbox" name="terms" id="terms" required>
+              <h3 class="privecy_text">I agree to the PrimeWeb <a href="#" class="privacy_links">terms.</a></h3>
+            </div>
+            <div class="sign_up_button element_margin" id="signUpButton">
+              <a href="#"><button>Sign Up</button></a>
+            </div>
+            <div class="have_account element_margin" id="haveAccount">
+              <a href="https://www.facebook.com/login.php/">Already have an account?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
