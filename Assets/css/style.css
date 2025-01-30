@@ -193,6 +193,7 @@ body{
     display: flex;
     justify-content: center;
     color: rgb(0, 164, 0);
+    padding-bottom: .5rem;
 }
 
 
